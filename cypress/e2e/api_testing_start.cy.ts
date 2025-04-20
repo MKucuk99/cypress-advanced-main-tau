@@ -29,10 +29,11 @@ it.only('testing board list', () => {
 
     expect(boards.status).eq(200)
     expect(boards.body).to.have.length(2)
-    expect(boards.body[0].id).to.have.
   })
 });
 
 it('resetting database', () => {
   
 });
+
+// Muhammed Kucuk
