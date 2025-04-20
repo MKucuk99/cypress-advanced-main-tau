@@ -1,0 +1,35 @@
+{
+  "boards": [
+    {
+      "name": "Shopping",
+      "user": 0,
+      "starred": false,
+      "created": "2023-07-14",
+      "id": 1
+    },
+    {
+      "name": "Created via cy.request()",
+      "user": 0,
+      "starred": false,
+      "created": "2025-04-10",
+      "id": 2
+    },
+    {
+      "name": "Created via cy.request()",
+      "user": 0,
+      "starred": false,
+      "created": "2025-04-10",
+      "id": 3
+    },
+    {
+      "name": "Created via cy.request()",
+      "user": 0,
+      "starred": false,
+      "created": "2025-04-10",
+      "id": 4
+    }
+  ],
+  "cards": [],
+  "lists": [],
+  "users": []
+}

@@ -1,0 +1,25 @@
+{
+  "name": "cypress-advanced-tau",
+  "version": "1.0.0",
+  "description": "This is a companion repository for the [Advanced Cypress course on Test Automation university](https://testautomationu.applitools.com/advanced-cypress-tutorial/)",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open --e2e --browser chrome",
+    "cy:run": "cypress run",
+    "postinstall": "git submodule update --init --recursive --remote && cd trelloapp && npm install",
+    "start": "cd trelloapp && npm start",
+    "trello": "cd trelloapp && npm start"
+  },
+  "keywords": [
+    "cypress",
+    "workshop",
+    "javascript"
+  ],
+  "author": "Filip Hric (https://filiphric.com/)",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.17.0",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {}
+}
